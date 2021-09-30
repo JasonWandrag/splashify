@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 
 /* Header styles */
@@ -16,6 +19,7 @@
   justify-content: center;
   align-items: center;
   color: whitesmoke;
+  font-size: 1.3rem;
 }
 
 /* Category Menu Styles */
@@ -89,6 +93,7 @@
   top: 0;
   bottom: 0;
   z-index: 5;
+  font-size: 30px;
 }
 .left-arrow.active {
   left: 0;
