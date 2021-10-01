@@ -46,7 +46,7 @@ function App() {
 
   // function to move cards into view
   const moveView = (val) => {
-    const limit = (images.length / 2) * 300 - (window.innerWidth - 400); // Total width of cards - screen with and single card
+    const limit = (images.length / 2) * 300 - (window.innerWidth - 400); // Total width of cards - screen with and
     if (inView + val > 0) {
       return setInView(0);
     }
@@ -65,7 +65,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <Header></Header>
+      {/* <Header></Header> */}
       <div className="main">
         <Menu
           categories={categories}

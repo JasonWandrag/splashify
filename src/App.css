@@ -81,7 +81,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   overflow: hidden;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   padding: 50px;
@@ -90,17 +90,18 @@
 
 .image-grid-arrow {
   position: fixed;
-  top: 0;
-  bottom: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  /* bottom: 0; */
   z-index: 5;
   font-size: 30px;
 }
 .left-arrow.active {
-  left: 0;
+  left: 20px;
 }
 
 .right-arrow.active {
-  right: 0;
+  right: 20px;
 }
 
 .left-arrow {
