@@ -1,6 +1,7 @@
 import "./App.css";
 import Menu from "./components/Menu";
 // import Header from "./components/Header";
+import Loader from "./components/Loader";
 import ImageContainer from "./components/ImageContainer";
 
 import { useState, useEffect } from "react";
@@ -65,6 +66,7 @@ function App() {
 
   return (
     <div className="app-container">
+      <Loader></Loader>
       {/* <Header></Header> */}
       <div className="main">
         <Menu

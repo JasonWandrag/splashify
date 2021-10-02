@@ -20,11 +20,7 @@ const Menu = ({ categories, fetchTopicImages, active, isActive }) => {
           })
         : "Loading Categories"}
       <button
-        className={
-          !active.active
-            ? "category-menu-toggle active"
-            : "category-menu-toggle active"
-        }
+        className="category-menu-toggle active"
         onClick={() => isActive(active.active)}
       >
         <i className="fas fa-bars"></i>
