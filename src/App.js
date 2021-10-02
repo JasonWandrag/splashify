@@ -1,6 +1,6 @@
 import "./App.css";
 import Menu from "./components/Menu";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import ImageContainer from "./components/ImageContainer";
 
 import { useState, useEffect } from "react";
