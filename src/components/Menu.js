@@ -23,7 +23,7 @@ const Menu = ({ categories, fetchTopicImages, active, isActive }) => {
         className={
           !active.active
             ? "category-menu-toggle active"
-            : "category-menu-toggle"
+            : "category-menu-toggle active"
         }
         onClick={() => isActive(active.active)}
       >

@@ -33,16 +33,17 @@
 
 .category-menu {
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: -100vw;
+  top: -1000px;
+  right: 0;
+  left: 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   overflow-y: auto;
   gap: 10px;
-  transition: left 0.3s linear;
+  transition: top 0.3s linear;
   background: #222d;
   box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22),
     0 25px 55px 0 rgba(0, 0, 0, 0.21);
@@ -52,7 +53,7 @@
 }
 
 .category-menu.active {
-  left: 0;
+  top: 0;
 }
 
 .category-menu-toggle {
