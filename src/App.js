@@ -46,7 +46,7 @@ function App() {
 
   // function to move cards into view
   const moveView = (val) => {
-    const limit = (images.length / 2) * 300 - (window.innerWidth - 400); // Total width of cards - screen with and
+    const limit = (images.length / 2) * 320 - (window.innerWidth - 100); // Total width of cards - screen with and padding
     if (inView + val > 0) {
       return setInView(0);
     }

@@ -4,7 +4,7 @@ const ImageContainer = ({ images, moveView, inView, active }) => {
   return (
     <main className="image-grid">
       <button
-        onClick={() => moveView(340)}
+        onClick={() => moveView(320)}
         className={
           !active.active
             ? "image-grid-arrow left-arrow active"
@@ -14,7 +14,7 @@ const ImageContainer = ({ images, moveView, inView, active }) => {
         &#60;
       </button>
       <button
-        onClick={() => moveView(-340)}
+        onClick={() => moveView(-320)}
         className={
           !active.active
             ? "image-grid-arrow right-arrow active"
